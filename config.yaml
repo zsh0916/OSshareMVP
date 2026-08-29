@@ -1,0 +1,32 @@
+source_weights:
+  feishu: 20
+
+group_weights:
+  CHAT_ID_PRIMARY: 30
+
+
+keyword_weights:
+  紧急: 30
+  投诉: 40
+  客诉: 40
+  退款: 30
+  故障: 35
+  宕机: 50
+  报警: 40
+  合同: 25
+  回款: 30
+  发票: 15
+  今天必须: 35
+  立即处理: 35
+  尽快: 20
+  客户反馈: 25
+
+time_weights:
+  workday_daytime: 5
+  workday_night: 20
+  weekend: 20
+
+thresholds:
+  ignore_below: 35
+  push_above: 75
+  urgent_above: 110
