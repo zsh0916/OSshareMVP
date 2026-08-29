@@ -1,7 +1,7 @@
 # Smart Office AI Platform
 
 一个可扩展的 FastAPI + Vue 3 智能办公示例项目，包含 OA 申请与审批、知识检索、会议纪要、员工测评、报告生成、飞书消息分流和基于角色的权限控制。
-
+![项目主界面](frontend/images/overview.png)
 公开版本中的员工、合作方、会话、群聊和工作流均使用 `USER_*`、`PARTNER_*`、`CHAT_ID_*`、`WORKFLOW_*` 等代号。请勿向仓库提交真实 `.env`、员工 CSV、SQLite 数据库或消息日志。
 
 ## 目录
